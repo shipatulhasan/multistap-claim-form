@@ -14,7 +14,6 @@ const FileAClaim = () => {
     const [message, setMessage] = useState('Start by entering your order details.')
     const [success, setSuccess] = useState(false)
     const [validEmail,setValidEmail] = useState('')
-    console.log(validEmail)
     const {
         register,
         handleSubmit,

@@ -1,7 +1,7 @@
 import { FormControl, Input, Stack } from '@chakra-ui/react';
 import React from 'react';
 
-const Step1 = ({register,errors,setValidEmail}) => {
+const Step1 = ({register,setValidEmail}) => {
     return (
         <Stack spacing={4} >
         <FormControl bg={'rgba(23, 22, 26, 0.04)'} isRequired>
