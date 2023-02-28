@@ -1,0 +1,54 @@
+.rdio-buttons-claim {
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+    vertical-align: middle;   
+  }
+  .rdio-buttons-claim input{
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .all-claims-grop-row .single-claimed-item-nw:nth-child(odd) .rdio-buttons-claim label{
+    background: transparent;
+  }
+  .rdio-buttons-claim label{
+    vertical-align: middle;
+    color: #000;
+    border-radius: 8px;
+    padding: 8px 18px;
+    cursor: pointer;
+    background: transparent;
+    font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  border: 1px solid rgba(215, 215, 215, 0.6);
+  }
+  .rdio-buttons-claim label span{
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  .rdio-buttons-claim label span span{
+    margin: 0;
+  }
+  .rdio-buttons-claim  input:checked + label{
+    color: #fff;
+    background: #FEB449 !important;
+  }
+  .rdio-buttons-claim  label svg rect{
+  fill:rgba(0, 0, 0, 0.6)
+}
+  
+  .rdio-buttons-claim  input:checked + label svg rect{
+    fill: rgba(255, 255, 255, 0.3);
+  }
+  .rdio-buttons-claim  input:checked + label svg circle,
+.rdio-buttons-claim  input:checked + label svg path{
+  fill: #fff;
+}
+  .rdio-buttons-claim label svg {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
